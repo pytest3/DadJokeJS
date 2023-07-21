@@ -127,4 +127,5 @@ function dataToView() {
   }
 }
 
-dataToView();
+// dataToView();
+window.requestAnimationFrame(dataToView());
