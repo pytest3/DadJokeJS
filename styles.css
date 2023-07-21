@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  padding: 10px;
+  padding: 4.1rem;
   display: grid;
   grid-template-rows: auto;
   justify-items: center;
@@ -8,6 +8,7 @@ body {
   align-content: start;
   background-color: #232946;
   color: #fffffe;
+  touch-action: manipulation;
 }
 
 .getRandomJokeButton {
@@ -16,14 +17,14 @@ body {
   height: 30px;
 }
 
-.JokesList {
+/* .JokesList {
   width: 80%;
-}
+} */
 
 h1 {
   width: 100%;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   line-height: 0;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -31,12 +32,19 @@ h1 {
 
 button {
   color: #232946;
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  padding: 18px 14px;
+  padding: 32px 24px;
   display: grid;
   place-content: center;
   border-radius: 10px;
+}
+
+button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
 }
 
 .get-button {
@@ -46,15 +54,19 @@ button {
   background-color: #eebbc3;
 }
 
+ul {
+  justify-self: start;
+}
+
 li {
   margin-bottom: 0.5rem;
   color: #b8c1ec;
-  font-size: 17px;
+  font-size: 1.5rem;
 }
 
 .buttons-wrapper {
   display: flex;
-  gap: 23px;
+  gap: 35px;
   margin-bottom: 2rem;
 }
 
