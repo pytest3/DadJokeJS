@@ -128,4 +128,4 @@ function dataToView() {
 }
 
 // dataToView();
-window.requestAnimationFrame(dataToView());
+dataToView();
