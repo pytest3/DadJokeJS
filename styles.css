@@ -64,6 +64,7 @@ button:active {
 ul {
   justify-self: start;
   height: 100%;
+  overflow: auto;
 }
 
 li {
